@@ -6,17 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="抱歉，没有符合您搜索条件的结果。请换其它关键词再试。             var inputArea = document.querySelector(&quot;#search-input&quot;);     var $resultArea = $(&quot;#search-result&quot;);      inputArea.onfocus = function() {       var s">
+    <meta name="description" content="抱歉，没有符合您搜索条件的结果。请换其它关键词再试。">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Search">
 <meta property="og:url" content="http://yoursite.com/Search/index.html">
 <meta property="og:site_name" content="bubug">
-<meta property="og:description" content="抱歉，没有符合您搜索条件的结果。请换其它关键词再试。             var inputArea = document.querySelector(&quot;#search-input&quot;);     var $resultArea = $(&quot;#search-result&quot;);      inputArea.onfocus = function() {       var s">
+<meta property="og:description" content="抱歉，没有符合您搜索条件的结果。请换其它关键词再试。">
 <meta property="og:locale" content="en.yml">
-<meta property="og:updated_time" content="2018-11-30T10:21:44.564Z">
+<meta property="og:updated_time" content="2018-11-30T10:35:50.107Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Search">
-<meta name="twitter:description" content="抱歉，没有符合您搜索条件的结果。请换其它关键词再试。             var inputArea = document.querySelector(&quot;#search-input&quot;);     var $resultArea = $(&quot;#search-result&quot;);      inputArea.onfocus = function() {       var s">
+<meta name="twitter:description" content="抱歉，没有符合您搜索条件的结果。请换其它关键词再试。">
     
     
         
@@ -93,49 +93,6 @@
       
           <section id="search"><br>  <form><br>    <input type="text" class="search-input" id="search-input" placeholder="搜索..."><br>  </form><br>  <div id="search-result"></div><br>  <p class="search-no-result">抱歉，没有符合您搜索条件的结果。请换其它关键词再试。</p><br></section>
 
-<!-- search -->
-  <script src="/js/search.js"></script>
-  <script type="text/javascript">
-    var inputArea = document.querySelector("#search-input");
-    var $resultArea = $("#search-result");
-
-    inputArea.onfocus = function() {
-      var search_path = "search.xml";
-      if (search_path.length == 0) {
-        search_path = "search.xml";
-      }
-      var path = "/" + search_path;
-      searchFunc(path, 'search-input', 'search-result');
-    }
-
-    inputArea.onkeydown = function(){
-        if(event.keyCode==13){
-            return false
-        }
-    }
-
-    $resultArea.bind("DOMNodeRemoved DOMNodeInserted", function(e) {
-        if (!$(e.target).text()) {
-            $(".search-no-result").show(200);
-        } else {
-            $(".search-no-result").hide();
-        }
-    })
-  </script>
-
-<!-- Google1 Analytics -->
-<!-- Disqus1 Comments -->
-<script type="text/javascript">
-        var disqus_shortname = 'swing';
-
-        (function(){
-            var dsq = document.createElement('script');
-            dsq.type = 'text/javascript';
-            dsq.async = true;
-            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        }());
-    </script>
         
   </div>
 </article>

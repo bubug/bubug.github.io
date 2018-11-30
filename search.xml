@@ -10,14 +10,4 @@
     <url>%2F2018%2F11%2F29%2Fhello-world%2F</url>
     <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
   </entry>
-  <entry>
-    <title><![CDATA[Links]]></title>
-    <url>%2FLinks%2Findex.html</url>
-    <content type="text"><![CDATA[友情链接： &nbsp;Baidu&nbsp;百度一下 &nbsp;Google&nbsp;谷歌 &nbsp;ZoomGod&nbsp;某工作室死宅男]]></content>
-  </entry>
-  <entry>
-    <title><![CDATA[Search]]></title>
-    <url>%2FSearch%2Findex.html</url>
-    <content type="text"><![CDATA[抱歉，没有符合您搜索条件的结果。请换其它关键词再试。]]></content>
-  </entry>
 </search>
